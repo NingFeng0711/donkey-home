@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.donkey</groupId>
+        <artifactId>donkey-home</artifactId>
+        <version>${revision}</version>
+    </parent>
+    <artifactId>donkey-framework</artifactId>
+    <packaging>pom</packaging>
+    <name>donkey-framework</name>
+    <modules>
+        <module>donkey-common</module>
+        <module>donkey-spring-boot-starter-mybatis</module>
+        <module>donkey-spring-boot-starter-redis</module>
+        <module>donkey-spring-boot-starter-excel</module>
+        <module>donkey-spring-boot-starter-job</module>
+        <module>donkey-spring-boot-starter-monitor</module>
+        <module>donkey-spring-boot-starter-mq</module>
+        <module>donkey-spring-boot-starter-security</module>
+        <module>donkey-spring-boot-starter-test</module>
+        <module>donkey-spring-boot-starter-web</module>
+        <module>donkey-spring-boot-starter-websocket</module>
+    </modules>
+</project>
