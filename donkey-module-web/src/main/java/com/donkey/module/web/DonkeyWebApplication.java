@@ -16,7 +16,7 @@ public class DonkeyWebApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(DonkeyWebApplication.class, args);
-        System.out.println("启动成功");
+        System.out.println("小驴之家，启动成功");
     }
 
 //    @PreDestroy
