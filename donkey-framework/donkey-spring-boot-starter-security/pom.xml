@@ -10,6 +10,11 @@
     <packaging>jar</packaging>
     <name>donkey-spring-boot-starter-security</name>
     <url>http://maven.apache.org</url>
+
     <dependencies>
+        <dependency>
+            <groupId>com.auth0</groupId>
+            <artifactId>java-jwt</artifactId>
+        </dependency>
     </dependencies>
 </project>

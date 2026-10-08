@@ -1,0 +1,9 @@
+server:
+  port: 8090
+  servlet:
+    # 应用的访问路径
+    context-path: /donkey-home
+
+spring:
+  application:
+    name: donkey-home
